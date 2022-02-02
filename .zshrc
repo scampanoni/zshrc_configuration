@@ -17,16 +17,13 @@ alias kk='sl -a'
 
 export PATH=~/bin:$PATH
 export PATH=~/Projects/ongoing/Utils/scripts:$PATH 
+export PATH=~/Projects/ongoing/SoftwareConfigurations/ZSHRC/scripts:$PATH 
 
 # Latex
 export PATH=/Library/TeX/texbin:$PATH
 
 # Local installations
 export PKG_CONFIG_PATH=~/System/lib/pkgconfig:$PKG_CONFIG_PATH
-
-# Debian
-export DEBFULLNAME='Campanoni Simone'
-export DEBEMAIL='simo.xan@gmail.com'
 
 export GREP_OPTIONS='--color=always'
 
