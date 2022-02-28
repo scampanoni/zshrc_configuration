@@ -19,3 +19,6 @@ function install_fonts {
 install_fonts https://github.com/powerline/fonts.git fonts1
 
 cp .zshrc ~/
+
+cd ;
+git clone https://github.com/dannysmith/oh-my-zsh .oh-my-zsh ;
