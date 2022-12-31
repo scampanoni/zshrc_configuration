@@ -31,3 +31,4 @@ if test "`pwd`" = "/Users/xan" ; then
   cd ~/Projects/ongoing/MARC ;
 fi
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH" 
