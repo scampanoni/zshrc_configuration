@@ -21,4 +21,10 @@ install_fonts https://github.com/powerline/fonts.git fonts1
 cp .zshrc ~/
 
 cd ;
-git clone https://github.com/dannysmith/oh-my-zsh .oh-my-zsh ;
+if test -d .oh-my-zsh ; then
+  cd .oh-my-zsh ;
+  git pull ;
+
+else
+  git clone https://github.com/dannysmith/oh-my-zsh .oh-my-zsh ;
+fi
